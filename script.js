@@ -8,6 +8,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         alert("Por favor, preencha todos os campos.");
     } else {
         console.log("Tentativa de login com:", email);
-        alert("Login enviado com sucesso! (Simulação)");
+        alert("Login enviado com sucesso!");
     }
 });
